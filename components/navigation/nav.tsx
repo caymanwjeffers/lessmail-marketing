@@ -18,7 +18,7 @@ export default function Nav() {
   return (
     <Disclosure
       as="nav"
-      className="bg-gray-800 fixed w-full bg-opacity-80 z-10"
+      className="bg-gray-900 fixed w-full bg-opacity-95 z-10"
     >
       {({ open }) => (
         <>
@@ -35,7 +35,7 @@ export default function Nav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:justify-between">
+              <div className="flex flex-1 items-center justify-between sm:justify-between p-3">
                 <div className="hidden sm:flex sm:flex-shrink-0">
                   <Image
                     className="block h-8 w-auto"
